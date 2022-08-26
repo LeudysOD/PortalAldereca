@@ -1,15 +1,3 @@
-import {
-  CardGroup,
-  Container,
-  Row,
-  Col,
-  Button,
-  ButtonGroup,
-  DropdownButton,
-  Dropdown,
-} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import Ticketimg from '../ticket.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCartPlus,
@@ -17,7 +5,6 @@ import {
   faCheck,
   faPen,
 } from '@fortawesome/free-solid-svg-icons';
-import './Redirecting.css';
 import { Fade } from 'react-awesome-reveal';
 const RedirectingBtns = () => {
   return (
@@ -51,7 +38,7 @@ const RedirectingBtns = () => {
                   Sistema de ventas
                 </a>
 
-                <a href='#' className='button  btn-lg'>
+                <a href='#!' className='button  btn-lg'>
                   <FontAwesomeIcon
                     icon={faCheck}
                     className='me-2'
@@ -59,7 +46,7 @@ const RedirectingBtns = () => {
                   Sistema de aprobaciones
                 </a>
 
-                <a href='' className='button btn-lg'>
+                <a href='#!' className='button btn-lg'>
                   <FontAwesomeIcon
                     icon={faPen}
                     className='me-2'
@@ -86,12 +73,7 @@ const RedirectingBtns = () => {
                     </a>
                   </li>
                   <li>
-                    <a className='dropdown-item' href='#'>
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#!!'>
                       Something else here
                     </a>
                   </li>

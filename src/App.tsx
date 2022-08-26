@@ -1,9 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/header';
-import RedirectingBtns from './components/RedirectingBtns';
-import Footer from './components/footer';
+import Header from './components/layout/header';
+import RedirectingBtns from './components/layout/RedirectingBtns';
+import Footer from './components/layout/footer';
 
 function App() {
   return (
