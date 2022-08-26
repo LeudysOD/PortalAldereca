@@ -16,14 +16,14 @@ function Header() {
           />
         </div>
         <div className='col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 text-center d-flex'>
-          <Bounce></Bounce>
-          <header
-            className='text-center  text-sm-center text-md-start text-lg-start text-xl-start m-auto 
-          col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-2'
+          <div
+            className='text-center text-sm-center text-md-start text-lg-start text-xl-start m-auto 
+              col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-2'
           >
-            {' '}
-            Portal Aldereca
-          </header>
+            <p style={{ fontSize: 'xx-large', fontWeight: 'bold' }}>
+              Portal Aldereca
+            </p>
+          </div>
         </div>
       </div>
     </div>
