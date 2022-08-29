@@ -1,15 +1,3 @@
-import {
-  CardGroup,
-  Container,
-  Row,
-  Col,
-  Button,
-  ButtonGroup,
-  DropdownButton,
-  Dropdown,
-} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import Ticketimg from '../ticket.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCartPlus,
@@ -17,7 +5,6 @@ import {
   faCheck,
   faPen,
 } from '@fortawesome/free-solid-svg-icons';
-import { Fade } from 'react-awesome-reveal';
 
 const date = new Date();
 const year = date.getFullYear();
