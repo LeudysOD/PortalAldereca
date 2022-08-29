@@ -18,9 +18,13 @@ import {
   faPen,
 } from '@fortawesome/free-solid-svg-icons';
 import { Fade } from 'react-awesome-reveal';
+
+const date = new Date();
+const year = date.getFullYear();
+
 const RedirectingBtns = () => {
   return (
-    <div className='container my-3  p-3 form-wrapper rounded w-100'>
+    <div className='container my-3 p-3 rounded w-100'>
       <div className='row'>
         <div className='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 m-auto'>
           <div className='d-flex justify-content-center flex-column'>
@@ -87,6 +91,15 @@ const RedirectingBtns = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 m-auto mt-5'>
+          <footer className='text-center text-white fixed-bottom'>
+            <div className='text-center p-3  first-div'>
+              <p className='m-0'>
+                © {year} Copyright: Almacen de Repuestos Aldereca
+              </p>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
