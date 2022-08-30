@@ -28,7 +28,7 @@ const RedirectingBtns = () => {
 
             <a
               className='btn-lg btn-a text-white button rounded mb-1'
-              href='https://ventas.aldereca.com.do'
+              href='https://sistema.aldereca.com.do/'
             >
               <FontAwesomeIcon
                 icon={faCartPlus}
@@ -39,7 +39,7 @@ const RedirectingBtns = () => {
 
             <a
               className='btn-lg btn-a text-white button rounded mb-1'
-              href='https://ventas.aldereca.com.do'
+              href='!#'
             >
               <FontAwesomeIcon
                 icon={faCheck}
@@ -50,7 +50,7 @@ const RedirectingBtns = () => {
 
             <a
               className='btn-lg btn-a text-white button rounded mb-1'
-              href='https://ventas.aldereca.com.do'
+              href='!#'
             >
               <FontAwesomeIcon icon={faPen} className='me-2'></FontAwesomeIcon>
               Solicitud de proyectos
